@@ -1,0 +1,8 @@
+setup typescript eslint nodemon
+ - pnpm add -D typescript ts-node nodemon eslint eslint-plugin-simple-import-sort @types/node
+
+init typescript
+ - pnpm tsc --init
+tsconfig.json -> "outDir": "./dist"
+		"include": ["./src"],
+		"exclude": ["./node_modules"]	
