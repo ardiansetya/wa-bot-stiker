@@ -6,3 +6,7 @@ init typescript
 tsconfig.json -> "outDir": "./dist"
 		"include": ["./src"],
 		"exclude": ["./node_modules"]	
+
+init eslint
+ - pnpm eslint --init 
+ - pnpm add -D @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest

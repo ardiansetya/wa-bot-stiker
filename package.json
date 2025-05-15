@@ -1,10 +1,12 @@
 {
 	"devDependencies": {
-		"typescript": "^5.8.3",
-		"ts-node": "^10.9.2",
-		"nodemon": "^3.1.10",
+		"@types/node": "^22.15.18",
+		"@typescript-eslint/eslint-plugin": "^8.32.1",
+		"@typescript-eslint/parser": "^8.32.1",
 		"eslint": "^9.26.0",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
-		"@types/node": "^22.15.18"
+		"nodemon": "^3.1.10",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
 	}
 }
